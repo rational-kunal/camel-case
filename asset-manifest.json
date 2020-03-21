@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/camel-case/static/css/main.a0d2cf14.chunk.css",
+    "main.js": "/camel-case/static/js/main.fc297620.chunk.js",
+    "main.js.map": "/camel-case/static/js/main.fc297620.chunk.js.map",
+    "runtime-main.js": "/camel-case/static/js/runtime-main.85424350.js",
+    "runtime-main.js.map": "/camel-case/static/js/runtime-main.85424350.js.map",
+    "static/js/2.75a86078.chunk.js": "/camel-case/static/js/2.75a86078.chunk.js",
+    "static/js/2.75a86078.chunk.js.map": "/camel-case/static/js/2.75a86078.chunk.js.map",
+    "index.html": "/camel-case/index.html",
+    "precache-manifest.2f6e6714cb914f2b4f44168f0d78b55c.js": "/camel-case/precache-manifest.2f6e6714cb914f2b4f44168f0d78b55c.js",
+    "service-worker.js": "/camel-case/service-worker.js",
+    "static/css/main.a0d2cf14.chunk.css.map": "/camel-case/static/css/main.a0d2cf14.chunk.css.map",
+    "static/js/2.75a86078.chunk.js.LICENSE": "/camel-case/static/js/2.75a86078.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85424350.js",
+    "static/js/2.75a86078.chunk.js",
+    "static/css/main.a0d2cf14.chunk.css",
+    "static/js/main.fc297620.chunk.js"
+  ]
+}
