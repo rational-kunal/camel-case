@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Poppins|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+
+blockquote {
+    transform: translateX(calc(10%));
+
+    font-family: 'Mali', cursive;
+
+    background: #0E153A;
+    color: #F4FA9C;
+    padding: 32px 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    margin: 32px auto auto;
+}
+
+.blog-inner-container {
+    margin: 64px calc(10%);
+}
+
+.a {
+    padding-left: 4px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #17B978;
+}
+
+.a:hover {
+    background: #0E153A;
+    font-size: 21px;
+}
+
+.number {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.2;
+    color: #A7FF83;
+    font-size: 48px;
+}

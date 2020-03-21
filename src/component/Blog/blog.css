@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Poppins|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+
+.blog-container {
+    background-color: #071A52;
+    margin: 64px auto;
+    border-radius: 32px;
+    padding: 16px 0;
+}
+
+.blog-main-header-container {
+    text-align: right;
+    padding: 48px 0;
+
+    transform: translateX(calc(10%));
+}
+
+.blog-main-header {
+    text-align: right;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+
+    color: #A7FF83;
+}
+
+.blog-button-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.blog-button {
+    padding: 4px 32px;
+    margin-left: 16px;
+
+    border-radius: 8px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+
+    color: #071A52;
+    background-color: #A7FF83;
+}
+
+.blog-button:hover {
+    border-radius: 6px;
+
+    color: #FFF98C;
+    background-color: #492540;
+}
+
+p, strong, em {
+    text-indent: 32px;
+    /*padding-bottom: 32px;*/
+    width: 80%;
+    margin: 32px auto auto;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /*line-height: 24px;*/
+    /*text-align: justify;*/
+
+    color: #17B978;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+    width: 80%;
+    margin: 32px auto auto;
+
+    color: #A7FF83;
+}
+
+hr {
+    width: 80%;
+    margin: 32px auto auto;
+    opacity: 0;
+    color: #17B978;
+}
+
+blockquote {
+    transform: translateX(calc(10%));
+
+    background-color: #492540;
+    color: #F4FA9C;
+    padding: 32px 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    margin: 32px auto auto;
+}
+
+blockquote > p {
+    width: auto;
+    margin: auto;
+
+    font-family: 'Mali', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    text-indent: 0;
+
+    color: #17B978;
+}
+
+pre {
+    font-family: 'Roboto Mono', monospace;
+
+    padding: 32px 48px;
+
+    background: #0E153A;
+    color: #F4FA9C;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    transform: translateX(calc(10%));
+
+    margin: 32px auto auto;
+}
+
+pre * {
+    font-family: 'Roboto Mono', monospace;
+    color: #F4FA9C;
+}
+
+code {
+    font-family: 'Roboto Mono', monospace;
+
+    padding: 2px 2px;
+
+    background: #0E153A;
+    color: #F4FA9C;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: #17B978;
+}
+
+a:hover {
+    background: #0E153A;
+}
+
+ul {
+    width: 80%;
+    margin: 32px auto auto;
+
+    color: #17B978;
+}
+
+li {
+    color: #17B978;
+}
+
+table {
+    width: 80%;
+    margin: 32px auto auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #17B978;
+}
+
+th, td {
+    padding: 4px;
+    color: #17B978;
+}
